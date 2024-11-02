@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper  Scissors Game</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Rock Paper  Scissors</h1>
+    <div class="choices">
+        <!-- To identifying every choices uniquely,we should give them unique id -->
+        <div class="choice" id="Rock"> 
+            <img src="./images/rock.png"/>
+        </div>
+        <div class="choice" id="Paper">
+            <img src="./images/paper.png"/>
+        </div>
+        <div class="choice" id="Scissors">
+            <img src="./images/scissors.png"/>
+        </div>
+    </div>
+    <!-- score board must be stay in differnt div from img div -->
+    <div class="score-board">
+        <div class="score">
+           <p id="user-score">0</p>
+           <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+         </div> 
+    </div>
+     <div class="msg-container"> <!--this msg container include win or lose  -->
+        <p id="msg">Play your move</p>
+    </div>
+    <div class="reset">
+        <button id="reset-btn">Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+

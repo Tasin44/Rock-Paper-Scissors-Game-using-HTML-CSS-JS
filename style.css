@@ -1,0 +1,98 @@
+*{
+    /* it'll remove all the margin and padding from the left */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(84, 84, 202);
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(15, 15, 44);
+    color:white;
+    height: 5rem;
+    line-height: 5rem;/*will be the heading text a height */
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+
+    /* This below 3 will make the hover appearance as a circle arround images  */
+    border-radius: 50%; /*it'll make a circle hover arround img */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.choice:hover{
+    /*opacity: .5;*//* becuase of opacity white blur will be appear on img will touch it by cursor  */
+    
+    cursor: pointer;
+    background-color: rgb(12, 12, 56);
+}
+
+
+img{ /* this property will be applied to every images  */
+    height: 150px;
+    width: 150px;
+    object-fit: cover;/* will make the images visually appropriate  */
+    border-radius: 50%; /* will make the images rounded */
+   
+
+}
+.choices{/* this container contains all images  */
+    
+    display: flex;/* all images will be stay on same line  */
+    justify-content: center;/* it'll centered all images  */
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+
+#user-score,#comp-score{
+    font-size: 4rem;
+    gap:1rem
+}
+
+.msg-container{
+    margin-top: 4rem;
+}
+#msg{
+    font-size: 1.7rem;
+    background-color: rgb(15, 15, 44);
+    color: white;
+    /* display inline er jonno jototuku text tototuku background-color hobe */
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.reset{
+    margin: 2rem;
+    
+}
+
+#reset-btn{
+    font-size: 1.4rem;
+    background-color: rgb(94, 7, 1);
+    color: white;
+    /* display inline er jonno jototuku text tototuku background-color hobe */
+    display: inline;
+    padding: 1.1rem;
+    border-radius: 1rem;
+}
+
+
+
+
